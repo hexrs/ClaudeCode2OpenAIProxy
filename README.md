@@ -19,8 +19,7 @@ This guide explains how to use **Cloudflare Workers** to implement a proxy that 
    - Save and deploy the Worker. Your Worker will be available at a URL like `https://your-worker-name.your-subdomain.workers.dev`.
 
 4. **Configure the Proxy Endpoint**:
-   - In the Worker settings (under **Settings** > **Variables**), set the `API_ENDPOINT` environment variable to the target OpenAI-compatible API URL (e.g., `https://api.openai.com/v1/chat/completions`).
-   - Optionally, configure other variables like `AUTH_HEADER` or `AUTH_PREFIX` for custom authentication.
+   - In `worker.js`, change `API_ENDPOINT` to the OpenAI-compatible API URL (e.g., `https://api.openai.com/v1/chat/completions`).
 
 ## Usage
 
