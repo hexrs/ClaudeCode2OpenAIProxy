@@ -33,8 +33,8 @@ Set these three variables in your shell or IDE configuration:
 #### For Claude Code Integration
 ```bash
 export ANTHROPIC_BASE_URL="https://your-worker-name.your-subdomain.workers.dev"
-export ANTHROPIC_AUTH_TOKEN="sk-or-v1-apikey"  # Your actual API key for the target provider
-export ANTHROPIC_MODEL="x-ai/grok-4-fast:free"  # Model name (adjust as needed)
+export ANTHROPIC_AUTH_TOKEN="sk-or-v1-apikey"
+export ANTHROPIC_MODEL="x-ai/grok-4-fast:free"
 ```
 
 - `ANTHROPIC_BASE_URL`: Points to your deployed Worker (replaces Claude's official base URL).
